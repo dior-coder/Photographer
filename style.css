@@ -1,0 +1,305 @@
+@font-face {
+    font-family: photograf; /* Гарнитура шрифта */
+    src: url(./fonts/font-dior/font-one.ttf); /* Для IE5-8 */
+    src: local(photograf), url(./fonts/font-dior/font-one.ttf); /* Для остальных браузеров */
+   }
+*{
+    margin: 0 auto;
+    left: 0 auto;
+}
+/* 1 BLOCK */
+.container{
+    max-width: 1440px;
+    height: 800px;
+}
+.container{
+
+    background-image: url(./img/navbar-1.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+.box-one{
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    padding: 22px;
+    font-size: 22px;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'photograf';
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar-content i{
+    color: white;
+    font-size: 140px;
+    font-family: 'photograf';
+    padding-top: 1em;
+}
+.desc{
+    font-family: 'photograf';
+    color: white;
+    font-size: 24px;
+}
+.btn{
+    position: relative;
+    top: 270px;  
+    color: white;
+    
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    opacity: 0.5;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+/* 1 BLOCK END */
+
+/* 2 BLOCK */
+.container-two{
+    max-width: 1440px;
+    height: 800px;
+}
+.container-two{
+
+    background-image: url(./img/navbar-2.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+
+.container-two .btn {
+    position: relative;
+    top: 270px;
+}
+.container-two .navbar-content i {
+    color: white;
+    font-size: 120px;
+    font-family: 'photograf';
+    padding-top: 2em;
+}
+.container-two .btn a{
+    text-decoration: none;
+    color: white;
+}
+/* 2 BLOCK END */
+
+/* 3 BLOCK */
+.container-three{
+    max-width: 1440px;
+    height: 800px;
+}
+.container-three{
+
+    background-image: url(./img/navbar-3.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+
+.container-three .btn {
+    position: relative;
+    top: 270px;
+}
+.container-three .navbar-content i {
+    color: white;
+    font-size: 90px;
+    font-family: 'photograf';
+    padding-top: 3em;
+}
+.container-three .btn a{
+    text-decoration: none;
+    color: white;
+}
+/* 3 BLOCK END */
+
+/* 4 BLOCK */
+.container-four{
+    max-width: 1440px;
+    height: 800px;
+}
+.container-four{
+
+    background-image: url(./img/navbar-4.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+
+.container-four .btn {
+    position: relative;
+    top: 270px;
+}
+.container-four .navbar-content i {
+    color: white;
+    font-size: 90px;
+    font-family: 'photograf';
+    padding-top: 3em;
+}
+.container-four .btn a{
+    text-decoration: none;
+    color: white;
+}
+/* 4 BLOCK END */
+
+/* 5 BLOCK */
+.container-five{
+    max-width: 1440px;
+    height: 800px;
+}
+.container-five{
+
+    background-image: url(./img/navbar-5.png);
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+
+.container-five .btn {
+    position: relative;
+    top: 270px;
+}
+.container-five .navbar-content i {
+    color: white;
+    font-size: 90px;
+    font-family: 'photograf';
+    padding-top: 3em;
+}
+.container-five .btn a{
+    text-decoration: none;
+    color: white;
+}
+/* 5 BLOCK END */
+
+/* 6 BLOCK */
+.container-aside{
+    max-width: 1440px;
+    height: 435px;
+}
+.container-aside{
+
+    background-color: black;
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+
+.container-aside .btn {
+    position: relative;
+    top: 100px;
+    background-color: white;
+    opacity: unset;
+
+}
+.container-aside .navbar-content i {
+    color: white;
+    font-size: 50px;
+    font-family: 'photograf';
+    padding-top: 3em;
+}
+.container-aside .btn a{
+    text-decoration: none;
+    color: black;
+}
+/* 6 BLOCK END */
+
+/* FOOTER */
+.container-footer{
+    max-width: 1440px;
+    height: 128px;
+}
+.container-footer{
+
+    background-color: black;
+    
+    background-repeat: no-repeat;
+    
+    background-position: center center;    
+}
+.box-one{
+    display: flex;
+    align-items: center;
+}
+.box-one p{
+    color: white;
+    font-size: 15px;
+}
+.navbar{
+    display: flex;
+}
+.navbar li{
+    padding: 22px;
+    font-size: 22px;
+    list-style-type: none;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'photograf';
+}
+.navbar-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.navbar-content i{
+    color: white;
+    font-size: 140px;
+    font-family: 'photograf';
+    padding-top: 1em;
+}
+.desc{
+    font-family: 'photograf';
+    color: white;
+    font-size: 24px;
+}
+.btn{
+    position: relative;
+    top: 270px;  
+    color: white;
+    
+}
+.btn{
+    border: 1px solid white;
+    border-radius: 30px;
+    padding: 10px;
+    text-align: center;
+    width: 150px;
+    opacity: 0.5;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.container-footer .navbar a{
+    text-decoration: none;
+    color: white;
+    font-family: 'photograf';
+    font-size: 15px;
+}
+
+/* FOOTER END */
